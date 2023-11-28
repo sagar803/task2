@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 
@@ -7,40 +7,32 @@ export const SideMenu = () => {
     <Box 
         sx={{
           backgroundColor: '#2F3C7E',
+          boxSizing: 'border-box',
           position: 'fixed',
           width: '200px',
-          m: '0',
           height: '100%',
-          borderRight: '1px solid black',
-          overflowX: 'hidden',
-          color: 'white',
-          pt: '30px'     
+          pt: '55px',
+          pl: '20px'
         }}
     >
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography>Dashboard</Typography>
-      </Box>
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography >Dashboard</Typography>
-      </Box>
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography >Dashboard</Typography>
-      </Box>
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography >Dashboard</Typography>
-      </Box>
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography >Dashboard</Typography>
-      </Box>
-      <Box sx={{display: 'flex', padding: '10px 15px'}}>
-        <DashboardIcon />
+      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
         <Typography >Dashboard</Typography>
-      </Box>
+      </Button>
     </Box>
   )
 }
