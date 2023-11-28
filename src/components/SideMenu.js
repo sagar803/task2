@@ -15,24 +15,12 @@ export const SideMenu = () => {
           pl: '20px'
         }}
     >
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography>Dashboard</Typography>
-      </Button>
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography >Dashboard</Typography>
-      </Button>
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography >Dashboard</Typography>
-      </Button>
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography >Dashboard</Typography>
-      </Button>
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography >Dashboard</Typography>
-      </Button>
-      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>
-        <Typography >Dashboard</Typography>
-      </Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
+      <Button sx={{color:"white"}} startIcon={<DashboardIcon />}>Dashboard</Button>
     </Box>
   )
 }
