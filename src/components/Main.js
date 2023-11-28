@@ -47,7 +47,7 @@ export const Main = () => {
         },
         {
           name: 'Phone Number',
-          type: 'tel',
+          type: 'number',
           required: true,
         },
         {
